@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arun College</title>
+    <link rel="stylesheet" href="10+.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="./res/ARUNlog.png" type="image/x-icon">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html" id="nb1"><img src="./res/ARUNlog.png" id="icon" alt=""><h3 id="clgname">Arun <span> University</span></h3></a>
+            <div class="nav-links">
+
+                <div class="items1"><a href="index.html">Home</a></div>
+                <div class="items2">Login
+                <i class="fa fa-caret-down"></i>
+                <div class="dropdown-content">
+                <a href="logins.html">Admin Login </a>
+                <a href="logins.html">User Login</a>
+                </div>
+                </div>
+                <div class="items3">Courses
+                    <i class="fa fa-caret-down"></i>
+                    <div class="dropdown-content">
+                    <a href="">B.Tech</a>
+                    <a href="">MBA</a>
+                    <a href="">B.Sc</a>
+                    <a href="#">Science</a>
+            
+                    </div>
+                </div>
+                <div class="items4"><a href="services.html">Event Services</a></div>
+                <div class="items5">Gallery
+                <i class="fa fa-caret-down"></i>
+                <div class="dropdown-content">
+                        <a href="gallery.html">Events </a>
+                        <a href="video.html">Videos</a>
+                        <a href="invite.html">Invitation</a>
+                        <a href="https://arunanjinaik.blogspot.com/">Blog</a>
+            
+                </div>
+                </div>
+                <!-- <div class="items6"><a href="contact.html">Contact Us</a></div> -->
+            </div>
+                <!-- <div class="items6"><a href="contact.html">Contact Us</a></div> -->
+        </nav>
+    </section>
+    <form action="">
+        <center><h1>Inter-Joining STUDENTS DEITIES  </h1></center>
+        <label for="fn"><b>FULL NAME :</b></label>
+        <input type="text" name="firstname" id="fn" required maxlength="20" placeholder="firstname...." autocomplete="on">(max 20 char a-z andA-Z)<br><br>
+        <label for="ln"><b>LAST NAME : </b></label>
+        <input type="text" name="lastname" id="ln" required maxlength="20" placeholder="lastname...." autocomplete="on">(max 20 char a-z andA-Z)<br><br>
+        <label for="dob"><b>DATE OF BIRTH : </b></label>
+        <input class="data" type="date" name="DOB" id="dob" required autocomplete="on"><br><br>
+        <label for="gen"><b>GENDER : </b></label>
+        <label for="M">Male</label>
+        <input class="sel" type="radio" name="gender" id="M">
+        <label for="F">Female</label>
+        <input class="sel" type="radio" name="gender" id="F">
+        <label for="C">Others</label>
+        <input class="sel" type="radio" name="gender" id="C"><br><br>
+        <label for="mail"><b>EMAIL ID : </b></label>
+        <input class="data" type="email" name="email" id="mail" required placeholder="mail id...." autocomplete="on"><br><br>
+        <label for="phno"><b>MOBILE NUMBER : </b></label>
+        <input class="data" type="tel" name="mobileno" id="phnum" required maxlength="10" placeholder="ph no..." autocomplete="on"><br><br>
+        <label class="add" for="address"><b>ADDRESS : </b></label><br>
+        <textarea rows="10" cols="40" required placeholder="enter your address..." autocomplete="on"></textarea><br><br>
+        <label for="ct"><b>CITY : </b></label>
+        <select name="city" id="ct">
+            <option value="PTP">PUTTAPARTHI</option>
+            <option value="BLT">BANGLURU</option>
+            <option value="CNI">CHENNAI</option>
+            <option value="HYD">HYDRABAD</option>
+            <option value="TPT">TIRUPATHI</option>
+            <option value="KOC">KOCHI</option>
+            <option value="DEL">DELHI</option>
+            <option value="VIZ">VIZAG</option>
+            <option value="ATP">ANANTHAPURAM</option>
+            <option value="sel" selected>select city...</option>
+        </select><br><br>
+        <label for="pin"><b>PINCODE : </b></label>
+        <input type="text" name="pincode" id="pin" maxlength="6" autocomplete="on" placeholder="pincode...">(6 digit number)<br><br>
+        <label for="email"><b>SECONDRY EMAIL ID : </b></label>
+        <input type="email" name="email" id="email" placeholder="mail id..."><br><br>
+        <label for="state"><b>STATE : </b></label>
+        <input type="text" name="state" id="state" required placeholder="state..." autocomplete="on"><br><br>
+        <label for="country"><b>COUNTRY : </b></label>
+        <input type="text" name="country" id="country" required placeholder="country..." autocomplete="on"><br><br>
+        <label for="hob"><b>HOBBIES : </b></label>
+        <label for="cri">Cricket</label>
+        <input class="sel" type="checkbox" name="Cricket" id="cri">
+        <label for="music">Music</label>
+        <input class="sel" type="checkbox" name="music" id="music">
+        <label for="vg">Video-Games</label>
+        <input class="sel" type="checkbox" name="videgames" id="vg">
+        <label for="dra">Drawing</label>
+        <input class="sel" type="checkbox" name="Drawing" id="dra">
+        <label for="oth">Others</label>
+        <input class="sel" type="checkbox" name="Other" id="oth">
+        <input class="data" type="text" name="Other" id="other" placeholder="enter other hobbies..."><br><br>
+        <label for="caf" ><b>COURSE APPLIDE FOR : </b></label>
+        <label for="btech">CEC</label>
+        <input class="sel" type="radio" name="course" id="btech">
+        <label for="bca">HEC</label>
+        <input class="sel" type="radio" name="course" id="bca">
+        <label for="ba">MPC</label>
+        <input class="sel" type="radio" name="course" id="ba">
+        <label for="bcom">Bipc</label>
+        <input class="sel" type="radio" name="course" id="bcom"><br><br>        
+        <label for="ed"><b>QUALIFICATION : </b></label><br>
+        <table border="0px" cellspacing="2px" cellpadding="0" width="80%">
+            <tr>
+                <th>Sl.no</th>
+                <th>Examination</th>
+                <th>Board</th>
+                <th>Percentage</th>
+                <th>Year of Passing</th>
+                <th>Uplode File </th>
+            </tr>
+            <tr>
+                <td align="left">1.7<sup>th</sup></td>
+                <td align="center"><input class="data" type="text" size="20" required placeholder="Examination..." autocomplete="on"></td>
+                <td align="center"><input class="data" type="text" size="20" required placeholder="Board...." autocomplete="on"></td>
+                <td align="center"><input class="data" type="text" size="20" required placeholder="Percentage..." maxlength="3" value="%" autocomplete="on"></td>
+                <td align="center"><input class="data" type="text" size="20" required placeholder="YOP..." maxlength="4" autocomplete="on"></td>
+                <td align="center"><input class="data1" type="file" size="20" required ></td>
+            </tr>
+            <tr>
+                <td align="left">2.10<sup>th</sup></td>
+                <td align="center"><input class="data" type="text" size="20" required placeholder="Examination..." autocomplete="on"></td>
+                <td align="center"><input class="data" type="text" size="20" required placeholder="Board...." autocomplete="on"></td>
+                <td align="center"><input class="data" type="text" size="20" required placeholder="Percentage..." maxlength="3" value="%" autocomplete="on"></td>
+                <td align="center"><input class="data" type="text" size="20" required placeholder="YOP..." maxlength="4" autocomplete="on"></td>
+                <td align="center"><input class="data1" type="file" size="20" required ></td>
+</tr>
+        </table> <br><br>
+        
+        <center><button> Submit </button>    <button> Reset </button></center>
+        
+
+
+</form>
+<section class="footer">
+    <h4>ABOUT US</h4>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus quasi ratione,<br> fuga molestiae iusto hic commodi vitae necessitatibus qui minus eligendi, vel quod nostrum vero assumenda voluptates sed possimus voluptatem!</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+
+    </div>
+    <p>Made By Arun</p>
+</section>
+</body>
+</html>

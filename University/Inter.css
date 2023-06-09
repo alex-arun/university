@@ -1,0 +1,23 @@
+@import url(course.css);
+.course-col img{
+    height: 200px;
+    width: 400px;
+    margin: 15px;
+
+}
+.c1,.c2,.c3,.c4{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+.course-col{
+    display: flex;
+    justify-content: space-around;
+}
+.row{
+    margin: 0;
+
+}
+.course{
+    width: 90%;
+}

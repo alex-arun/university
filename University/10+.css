@@ -1,0 +1,145 @@
+@import url(style.css);
+/* .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f1f1f1;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    display: grid;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    width: 80%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background-color: bisque;
+  }
+  
+  input[type="submit"] {
+    background-color: #00a6ff;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #a08045;
+  }
+  
+  input:required,
+  textarea:required {
+    border-color: red;
+  }
+  
+  input:valid,
+  textarea:valid {
+    border-color: #ccc;
+  }
+   */
+
+
+   
+h1{
+    color: rgb(255, 255, 255);
+    background-color: rgb(38, 54, 68);
+    border-radius: 15px;
+    /* width: 350px; */
+    stroke-width: 1px;
+    padding-left: 10px;
+    padding-right:10px;
+    margin: 20px;
+}
+form{
+    background-color: #2523236f;
+    width: 80%;
+    margin: 10%;
+    padding: 20px;
+    box-shadow: 0px 0px 25px rgb(0, 0, 0);
+}
+textarea{
+background-color: bisque;
+border-radius: 3px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+}
+input{
+background-color: lightgray;
+border-radius: 5px;
+height: 30px;
+width: 300px;
+color: rgb(18, 14, 146);
+}
+button{
+background-color: rgb(197, 38, 38);
+height: 30px;
+border-radius: 20px;
+font-size: 1.2rem;
+border: 0rem;
+color: aliceblue;
+padding-left: 10px;
+padding-right: 10px;
+
+
+}
+button:hover{
+   background-color: rgb(146, 110, 117);
+   color: black;
+   border: dotted;
+   border: doted cyan;
+   animation: var(#252323);
+   cursor:pointer ;
+   
+   
+}
+.sel{
+   width:auto;
+   background-color: black;
+   height: auto;
+   
+}
+.data{
+   width: 200px;
+   
+}
+.data1{
+   width: 200px;
+   color: rgb(18, 14, 146);
+}
+select{
+   background-color: lightgray;
+   border-radius: 5px;
+   height: 20px;
+   width: 100px;
+   
+}
+legend{
+   align-content: center;
+}
+input:hover{
+   background-color: aliceblue;
+  
+   
+}
+
